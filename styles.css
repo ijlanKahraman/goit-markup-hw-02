@@ -65,7 +65,7 @@ nav:a {
 ul:li {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 address {
@@ -85,7 +85,14 @@ address:ul:li:focus {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.sector-birbaslik {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .sector-bir:button {
@@ -125,7 +132,7 @@ address:ul:li:focus {
 
 .sektor-ikiparagraf {
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #434455;
   font-size: 16px;
 }
@@ -148,12 +155,19 @@ address:ul:li:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.sector-ikihuc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .sector-ucliste {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 .sector-ucparagraf {
   line-height: 1.5;
@@ -195,5 +209,5 @@ address:ul:li:focus {
 .alt-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
