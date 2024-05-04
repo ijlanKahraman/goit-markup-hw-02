@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 nav:a {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -13,6 +13,8 @@ nav:a {
   color: #4d5ae5;
 }
 .nav-list {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -21,6 +23,9 @@ nav:a {
   color: #404bbf;
 }
 .nav-list:focus {
+  color: #404bbf;
+}
+.nav-list:visited {
   color: #404bbf;
 }
 .iletisim {
@@ -35,8 +40,17 @@ nav:a {
 .iletisim:focus {
   color: #404bbf;
 }
+.adreslisteelemani {
+  color: #434455;
+}
+.adreslisteelemani:hover {
+  color: #404bbf;
+}
+.adreslisteelemani:focus {
+  color: #404bbf;
+}
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -44,8 +58,9 @@ nav:a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-span {
-  color: #2e2f42;
+
+.log-span {
+  color: #f4f4fd;
 }
 ul:li {
   font-weight: 500;
@@ -65,7 +80,7 @@ address:ul:li:hover {
 address:ul:li:focus {
   color: #404bbf;
 }
-.sector1 {
+.sector-bir {
   background-color: #2e2f42;
   font-size: 56px;
   line-height: 1.07;
@@ -73,7 +88,7 @@ address:ul:li:focus {
   letter-spacing: 0.02;
   color: #ffffff;
 }
-.sector1:button {
+.sector-bir:button {
   color: #4d5ae5;
   font-family: Roboto;
   font-weight: 500;
@@ -83,28 +98,41 @@ address:ul:li:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
-.sector1:button:focus {
-  background-color: #404bbf;
+.sector-birbutton {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
 }
-.sector2 {
+.sector-birbutton:hover {
+  background-color: #404bbf;
+}
+.sector-birbutton:focus {
+  background-color: #404bbf;
+}
+
+.sector-iki {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-.sector2:h2 {
   color: #2e2f42;
 }
-.sector2:p {
+
+.sektor-ikiparagraf {
   line-height: 1.5;
   letter-spacing: 0.02;
   color: #434455;
+  font-size: 16px;
 }
-.sector3 {
+.sector-uc {
   background-color: #f4f4fd;
 }
-.sector3:h2 {
+.sector-ucbaslik {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -112,20 +140,7 @@ address:ul:li:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.sector3:ul:li {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.sector3:p {
-  line-height: 1.5;
-  letter-spacing: 0.02;
-  color: #434455;
-  font-size: 16px;
-}
-.sector4:h2 {
+.sector-uc:h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -133,20 +148,41 @@ address:ul:li:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.sector4:h3 {
+.sector-ucliste {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.sector4:p {
+.sector-ucparagraf {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-size: 16px;
+}
+.sector-dort:h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.sector-dort:h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.sector-dort:p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-footer {
+.alt-bilgi {
   background-color: #2e2f42;
   font-family: Raleway;
   font-weight: 700;
@@ -156,10 +192,7 @@ footer {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-footer:span {
-  color: #f4f4fd;
-}
-footer:p {
+.alt-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02;
