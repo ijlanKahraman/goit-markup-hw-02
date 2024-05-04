@@ -12,14 +12,14 @@ nav:a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.nav-list {
+.nav-listst {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-list:hover {
+.nav-listst:hover {
   color: #404bbf;
 }
 .nav-list:focus {
@@ -60,7 +60,7 @@ nav:a {
 }
 
 .log-span {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 ul:li {
   font-weight: 500;
@@ -160,6 +160,7 @@ address:ul:li:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .sector-ucliste {
   font-weight: 500;
