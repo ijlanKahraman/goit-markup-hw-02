@@ -28,6 +28,15 @@ body {
 .navlist:visited {
   color: #404bbf;
 }
+.navbaglanti {
+  color: #2e2f42;
+}
+.navbaglanti:hover {
+  color: #404bbf;
+}
+.navbaglanti:focus {
+  color: #404bbf;
+}
 .iletisim {
   font-size: 16px;
   line-height: 1.5;
@@ -47,6 +56,15 @@ body {
   color: #404bbf;
 }
 .adreslisteelemani:focus {
+  color: #404bbf;
+}
+.adresbaglanti {
+  color: #434455;
+}
+.adresbaglanti:hover {
+  color: #404bbf;
+}
+.adresbaglanti:focus {
   color: #404bbf;
 }
 .logo {
